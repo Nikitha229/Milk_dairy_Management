@@ -1,0 +1,111 @@
+h1 {
+  color: rgb(32, 5, 61);
+  margin-top: 8%;
+  margin-left: 55%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 45px;
+}
+body {
+  background-image: url("med.webp");
+  background-size: cover;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  padding: 5px 20px;
+  border: 1px solid cyan;
+  transition: 0.6s ease;
+}
+ul li a:hover {
+  background-color: #fff;
+  color: black;
+}
+.btn {
+  margin-top: 3%;
+  margin-left: 64%;
+}
+.form-box {
+  width: 70%;
+  max-width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: lightcyan;
+  padding: 50px 60px 70px;
+  text-align: center;
+  border-radius: 8px;
+}
+.form-box h1 {
+  font-size: 30px;
+  margin-bottom: 60px;
+  color: #3c00a0;
+  position: relative;
+  right: 25%;
+}
+.form-box h1::after {
+  content: "";
+  width: 30px;
+  height: 4px;
+  border-radius: 3px;
+  background: #3c00a0;
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.input-field {
+  background: #eaeaea;
+  margin: 10px 0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+input {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 18px 15px;
+  transition: 0.6s ease;
+}
+i {
+  margin-left: 15px;
+  color: black;
+  padding-left: 5px;
+}
+form p {
+  text-align: left;
+  font-size: 13px;
+}
+font p a {
+  text-decoration: none;
+  color: #3c00a0;
+}
+.btn-1 {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: white;
+  padding: 10px 1px;
+  border: 1px solid;
+  background-color: #3c00a0;
+  transition: 0.6s ease;
+  width: 70px;
+  height: 45px;
+  border-radius: 5px;
+}
+.btn-1:hover {
+  background-color: #eae;
+  color: black;
+}
+.home-1 {
+  margin-left: 280px;
+  transition: 0.6s ease;
+}
